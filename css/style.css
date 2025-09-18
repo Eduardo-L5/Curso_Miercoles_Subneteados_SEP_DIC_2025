@@ -1,0 +1,37 @@
+/* css/style.css */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: radial-gradient(circle at center, #0f0f0f 0%, #000000 100%);
+    color: #00ffcc;
+
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1, h2, h3 {
+    margin: 20px 0;
+    text-shadow: 0 0 5px #00fff7, 0 0 10px #00fff7, 0 0 20px #00fff7;
+}
+
+h1 {
+    font-size: 6em;
+    color: #fff700;
+    text-shadow: 0 0 5px #eeff00, 0 0 15px #fff700, 0 0 30px #fff700;
+}
+
+h2 {
+    font-size: 5em;
+    color: #00ffcc;
+}
+
+h3 {
+    font-size: 4em;
+    color: #0062ff;
+    text-shadow: 0 0 5px #0051ff, 0 0 15px #003cff;
+}
