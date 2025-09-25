@@ -49,7 +49,7 @@ body{
 }
 h1{
   font-family: 'Montserrat', 'Inter', sans-serif;
-  font-size: clamp(30px, 4vw, 38px);
+  font-size: clamp(44px, 4vw, 52px);
   line-height: 1;
   letter-spacing: -0.6px;
   margin-bottom: 6px;
@@ -62,7 +62,7 @@ h1{
 }
 
 h2{
-  font-size: clamp(18px, 2.6vw, 20px);
+  font-size: clamp(26px, 2.6vw, 28px);
   color: var(--muted);
   margin-bottom: 14px;
   font-weight: 500;
@@ -72,7 +72,7 @@ h3{
   display: inline-block;
   margin-bottom: 22px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
   color: var(--text);
   padding: 8px 12px;
   border-radius: 999px;
@@ -179,3 +179,20 @@ h3{
 a.btn-primary:hover{ transform: translateY(-4px); box-shadow: 0 16px 40px rgba(124,92,255,0.16); }
 a.btn-ghost:hover{ transform: translateY(-3px); box-shadow: 0 8px 20px rgba(2,6,23,0.35); }
 
+img {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1); /* se agranda un poco */
+  }
+}
