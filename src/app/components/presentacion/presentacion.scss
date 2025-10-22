@@ -1,0 +1,49 @@
+/* Importar fuente Bungee */
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');/* css/style.css */
+:host {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #fce4ec, #e1f5fe);
+    color: #444;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Títulos con Bungee */
+h2 {
+    font-family: 'Bungee', cursive;
+    font-size: 2.5rem;
+    margin: 15px 0;
+    color: #444;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.15);
+}
+.letrapral{
+    font-family: 'Bitcount Single Ink';
+}
+/* Imagen */
+img {
+    width: 280px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Caja contenedora */
+.container {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+    display: block;
+    width: 900px;  
+    margin: 0 auto;   /* 👈 centra horizontal */
+}
