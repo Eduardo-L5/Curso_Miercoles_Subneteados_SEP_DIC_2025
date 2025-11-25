@@ -1,0 +1,35 @@
+<!-- Partículas animadas -->
+<div class="particles">
+  <div class="particle" *ngFor="let p of particles"></div>
+</div>
+
+<!-- Tarjeta principal -->
+<div class="main-container">
+  <div class="avatar">🎮</div>
+  <h1>Soy Rodrigo</h1>
+  <p class="description">Me gustan los juegos</p>
+  <div class="specialty">Mi especialidad son los juegos</div>
+
+  <div class="gaming-icons">
+    <div class="icon">🎯</div>
+    <div class="icon">🏆</div>
+    <div class="icon">⚡</div>
+    <div class="icon">🔥</div>
+  </div>
+</div>
+
+<!-- Calculadora -->
+<div class="calculator-container">
+  <h2>Calculadora</h2>
+  <div class="calculator">
+    <input type="text" [value]="display()" readonly class="display" />
+
+    <div class="buttons">
+      <button *ngFor="let btn of buttons" (click)="press(btn)">
+        {{ btn }}
+      </button>
+      <button class="clear" (click)="clear()">C</button>
+      <button class="equals" (click)="calculate()">=</button>
+    </div>
+  </div>
+</div>
